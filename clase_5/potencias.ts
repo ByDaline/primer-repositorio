@@ -4,7 +4,7 @@ console.log("La base es " + base);
 let exponente : number = rls.questionInt ("Escriba el exponente: ");
 console.log("El exponente es " + exponente);
 
-function elevarBase (base : number,exponente : number){
+function exponentePotencia (base : number,exponente : number){
     let resultado:number=1;
     for (let i = 0; i < exponente; i++){
         resultado *= base;
@@ -17,7 +17,7 @@ function calcularPotencia(base : number, exponente : number){
         resultadoPotencia=1;
         console.log("El resultado de la potencia es: " + resultadoPotencia);
     } else {
-        resultadoPotencia=elevarBase(base, exponente);
+        resultadoPotencia=exponentePotencia(base, exponente);
         console.log("El resultado de la potencia es: " + resultadoPotencia);
     }
 }
