@@ -22,4 +22,3 @@ function calcularPotencia(base : number, exponente : number){
     }
 }
 calcularPotencia(base, exponente);
-
